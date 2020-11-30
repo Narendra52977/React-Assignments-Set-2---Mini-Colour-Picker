@@ -11,7 +11,7 @@ const Selection = (props) => {
     <div
       className="fix-box"
       style={nextBackground}
-      onClick={() => applyColor(handle(props.background))}
+      onClick={() => applyColor(handle)}
     >
       <h2 className="subheading">Selection</h2>
     </div>
