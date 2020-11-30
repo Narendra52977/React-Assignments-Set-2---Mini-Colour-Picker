@@ -13,7 +13,7 @@ const Selection = (props) => {
       style={nextBackground}
       onClick={() => applyColor(handle)}
     >
-      <h2 className="subheading">Selection</h2>
+      <h2 class="subheading">Selection</h2>
     </div>
   );
 };
