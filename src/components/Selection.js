@@ -4,9 +4,7 @@ const Selection = (props) => {
   let [nextBackground, selectNextBackground] = React.useState({
     background: ""
   });
-  // const handle = (background) => {
-  //   selectNextBackground(background);
-  // };
+
   return (
     <div
       className="fix-box"
