@@ -1,15 +1,18 @@
 import React from "react";
 const Selection = (props) => {
   const { applyColor } = props;
-  let [nextBackground, selectNextBackground] = React.useState({
+  let [color, setcolor] = React.useState({
     background: ""
   });
+  const handleClick=()=>{
+    applyColor(setcolor)
+  }
 
   return (
     <div
       className="fix-box"
       style={nextBackground}
-      onClick={() => applyColor((color) => selectNextBackground(color))}
+      onClick={handleClick}
     >
       <h2 class="subheading">Selection</h2>
     </div>
