@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../styles/Child.css";
 
 export default function Selection({ applyColor }) {
   const [color, setColor] = useState({ background: "" });
